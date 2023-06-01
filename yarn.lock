@@ -2723,13 +2723,6 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-vkbansal@~5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-vkbansal/-/eslint-config-vkbansal-5.2.1.tgz#02824b7fe491eda13603a4627768808a699e1ca2"
-  integrity sha1-AoJLf+SR7aE2A6Rid2iAimmeHKI=
-  optionalDependencies:
-    eslint-plugin-react "^7.0.0"
-
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.2.tgz#58f15fb839b8d0576ca980413476aab2472db66a"
@@ -2780,7 +2773,7 @@ eslint-plugin-import@~2.18.2:
     read-pkg-up "^2.0.0"
     resolve "^1.11.0"
 
-eslint-plugin-react@^7.0.0, eslint-plugin-react@~7.16.0:
+eslint-plugin-react@~7.16.0:
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.16.0.tgz#9928e4f3e2122ed3ba6a5b56d0303ba3e41d8c09"
   integrity sha512-GacBAATewhhptbK3/vTP09CbFrgUJmBSaaRcWdbQLFvUZy9yVcQxigBNHGPU/KE2AyHpzj3AWXpxoMTsIDiHug==
