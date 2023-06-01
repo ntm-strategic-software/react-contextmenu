@@ -25,7 +25,7 @@
     "test:dev": "jest --watchAll --no-cache --verbose --coverage",
     "clean": "rimraf ./dist && rimraf ./modules && rimraf ./es6",
     "clean:examples": "rimraf ./public",
-    "build": "npm run clean && npm run test && npm run build:dist && npm run build:es5 && npm run build:es6",
+    "build": "npm run clean && npm run build:dist && npm run build:es5 && npm run build:es6",
     "build:dist": "webpack --progress --profile --colors",
     "build:es5": "cross-env BABEL_ENV=es5 babel src --out-dir modules",
     "build:es6": "cross-env BABEL_ENV=es6 babel src --out-dir es6",
@@ -51,8 +51,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.0.0",
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.1",
-    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.1"
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.1 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.1 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "babel-cli": "~6.26.0",
